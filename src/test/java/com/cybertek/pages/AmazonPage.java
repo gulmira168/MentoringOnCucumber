@@ -20,5 +20,9 @@ public class AmazonPage {
     @FindBy(xpath = "//input[@type='submit']")
     public WebElement amazonSearchButton;
 
+
+    @FindBy(xpath = "//input[@type='submit']")
+    public WebElement amazonSearchoButton;
+
 }
 
